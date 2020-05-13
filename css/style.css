@@ -61,3 +61,29 @@
   width: 100%;
   height: 100%;
 }
+
+#links-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 2vh 0;
+  width: 100vw;
+  height: 20vh;
+}
+
+.link-tile {
+  display: flex;
+  flex-direction: column;
+}
+.link-tile > img {
+  margin: 2vh 0;
+}
+.link-tile > a {
+  margin: 2vh 0;
+}
+
+@media (max-width: 900px) {
+  #navbar {
+    flex-direction: column;
+    overflow: auto;
+  }
+}
